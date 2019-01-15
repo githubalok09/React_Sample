@@ -1,0 +1,22 @@
+﻿/* Replacing Cufon with EK Web fonts - BEGIN */
+
+h1:not(.nocufon), h2:not(.nocufon), h3:not(.nocufon), .userInfo, .contentBanner h5, .whatToDo, .widgetPiece > a, h4:not(.nocufon), .milesCount, .contentHeadline p, .ourPartnersBlock h5, .partnerRewardsBlock h5, .bannerText p, .fareItemBackground td p, .milesCalculator h5, .membershipWelcome, .EK_Font, .tabContent h5, .offersContainer.desc p:not(.expiration), .faqBox h5, .slideshowContainer .title, .button-user-tier .milesCount, .section.offers .cstmTitle span, ul.offersList .offerTitle, .featuredDest h5,.faresCstmScroll .from, .findFlightBtn input, .skywardsPanel .button-user-tier .memberMiles, .noUpcomingTitle, .fastFactsNumberStyle, .cufon-medium 
+{
+  font-family: 'EmiratesSM';
+  font-weight: normal;
+  font-style: normal;
+}
+.widgetMember h5, .count, .widgetTitle, .boostMiles a, .travelBook .topBook, #heroContainer .greeting, #sl-menu li.first, .noShow .thumbs .status {
+  font-family: 'EmiratesSB-Bold';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.faqBox h6, .commonHeader h3, .milesPerClass span, .contentBoxesWrapper h6, .contentBoxesWrapper li, .tt_title, .fareItemBackground td a, .sectionTitle, .contentOfferBlock h2:not(.nocufon), .partnerName, .accelHeading, .accelText, .destinationWidgetTitle, .findFlightSubmit, .button-user-tier .milesTitle, .button-user-tier .userName, .descriptionCell p {
+  font-family: 'EmiratesSL';
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+  

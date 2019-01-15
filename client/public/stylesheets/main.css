@@ -1,0 +1,2463 @@
+.ek.ek-wrapper.new-global-nav {
+    background: #333;
+}
+.ek.ek-wrapper {
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    line-height: 1.42857;
+    color: #333333;
+}
+.ek.ek-wrapper.new-global-nav .navigation-skinny {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.ek.ek-wrapper.new-global-nav .navigation-skinny {
+    width: 1200px;
+    margin: auto;
+}
+.ek.new-global-nav .global-nav-toolbar {
+    background-color: #333333;
+    position: relative;
+    z-index: 200;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    height: 54px;
+}
+.ek.ek-wrapper.new-ek-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: #333333;
+    margin-top: 40px;
+}
+
+.fare-families-container {
+    width: 960px;
+    padding-top: 60px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#mainContainer {
+    width: 980px;
+    margin: auto;
+    min-height: 640px;
+}
+.three-width-items:first-child {
+    position: relative;
+    z-index: 3;
+}
+.fare-inputs-row {
+    position: relative;
+    margin-bottom: 15px;
+    *zoom: 1;
+}
+.three-width-items .input-holder {
+    width: 340px;
+    min-height: 1px;
+}
+.fare-inputs-row .input-holder, .fare-inputs-row .fare-custom-select {
+    position: relative;
+    float: left;
+    *zoom: 1;
+}
+.three-width-items .input-holder input.with-icon {
+    width: 215px;
+    padding: 0 15px 0 60px;
+}
+.fare-inputs-row .input-holder span.from-icon {
+    /*background-image: url(../../public/Images/from_input_icon.png);  */
+} 
+.fare-inputs-row .input-holder span {
+    border-right: solid 1px #b3b3b3;
+    position: absolute;
+    top: 7px;
+    left: 1px;
+    width: 49px;
+    height: 30px;
+} 
+.red-button {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 25px;
+    white-space: nowrap;
+    background: #b32c2d;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    min-width: 120px;
+    border: none;
+} 
+/**
+ * Colours following new guidelines (TS)
+ **/
+/**
+ * Other colours (TS)
+ */
+/**
+ * Common responsive breakpoints
+ */
+/**
+ * Fonts following new guide lines (TS)
+ **/
+ /*start ts-search-result.css*/
+ p {
+    padding: 0;
+    margin:0;
+  }
+   .mainContainer {
+    width: 980px;
+    margin: auto;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    line-height: 1.35em; 
+  }
+  .fare-families-container {
+    width: 960px;
+    padding-top: 60px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .ts-comp h2 {
+    font: 700 18px/24px arial, sans-serif;
+  }
+  
+  .ts-comp .ts-button, .ts-comp .ts-button-secondary {
+    font: 700 16px/22px arial, sans-serif;
+  }
+  
+  .ts-comp .ts-sub-header {
+    font: 400 14px/20px arial, sans-serif;
+  }
+  
+  .ts-comp h1 {
+    font: 700 34px/40px EmiratesSB-Bold, helvetica, arial, sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'EmiratesSM';
+    src: url(/system/responsive/global-navigation/assets/fonts/Emirates-Medium.eot);
+    src: url(/system/responsive/global-navigation/assets/fonts/Emirates-Medium.eot?#iefix) format("embedded-opentype"), url(/system/responsive/global-navigation/assets/fonts/Emirates-Medium.woff2) format("woff2"), url(/system/responsive/global-navigation/assets/fonts/Emirates-Medium.woff) format("woff"), url(/system/responsive/global-navigation/assets/fonts/Emirates-Medium.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'EmiratesSB-Bold';
+    src: url(/system/responsive/global-navigation/assets/fonts/Emirates-Bold.eot);
+    src: url(/system/responsive/global-navigation/assets/fonts/Emirates-Bold.eot?#iefix) format("embedded-opentype"), url(/system/responsive/global-navigation/assets/fonts/Emirates-Bold.woff2) format("woff2"), url(/system/responsive/global-navigation/assets/fonts/Emirates-Bold.woff) format("woff"), url(/system/responsive/global-navigation/assets/fonts/Emirates-Bold.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .ts-comp h1 {
+    color: #333333;
+    padding-left: 0px;
+  }
+  
+  .ts-comp h2 {
+    color: #333333;
+    padding: 0;
+    letter-spacing: 0;
+  }
+  
+  .ts-comp .ts-sub-header {
+    color: #666666;
+    padding-top: 4px;
+    padding-bottom: 15px;
+  }
+  
+  .ts-comp .ts-sub-header p {
+    padding: 0;
+  }
+  
+  .ts-comp .ts-aria-only {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0;
+  }
+  
+  .ts-comp .ts-aria-only-and-focus:not(:focus) {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0;
+  }
+  
+  .ts-comp .ts-enable-focus:focus {
+    outline: 1px solid #0b24fb;
+    outline-offset: -1px;
+  }
+  
+  .ts-comp .ts-hide {
+    display: none !important;
+  }
+  
+  .ts-comp .ts-show {
+    display: block !important;
+  }
+  
+  .ts-comp .ts-button {
+    width: 208px;
+    height: 44px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    background: #C60C30;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ts-comp .ts-button:hover, .ts-comp .ts-button:focus {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .ts-comp .ts-button:active {
+    background-color: #B20B2B;
+  }
+  
+  .ts-comp .ts-remove-button-default {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  .ts-comp .ts-button-secondary {
+    width: 208px;
+    height: 44px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    background: #C60C30;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333333;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+  }
+  
+  .ts-comp .ts-button-secondary:hover, .ts-comp .ts-button-secondary:focus {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .ts-comp .ts-button-secondary:active {
+    background-color: #B20B2B;
+  }
+  
+  .ts-comp .ts-button-secondary:active {
+    background-color: #F2F2F2;
+  }
+  
+  .ts-comp .ts-economy {
+    color: #1F5A2D !important;
+  }
+  
+  .ts-comp .ts-economy.ts-special {
+    color: #3C8E4F !important;
+  }
+  
+  .ts-comp .ts-economy.ts-saver {
+    color: #32753A !important;
+  }
+  
+  .ts-comp .ts-economy.ts-flex {
+    color: #1F5A2D !important;
+  }
+  
+  .ts-comp .ts-economy.ts-flex-plus {
+    color: #1A3D2B !important;
+  }
+  
+  .ts-comp .ts-business {
+    color: #303291 !important;
+  }
+  
+  .ts-comp .ts-business.ts-special {
+    color: #518AF4 !important;
+  }
+  
+  .ts-comp .ts-business.ts-saver {
+    color: #406DC0 !important;
+  }
+  
+  .ts-comp .ts-business.ts-flex {
+    color: #305291 !important;
+  }
+  
+  .ts-comp .ts-business.ts-flex-plus {
+    color: #213965 !important;
+  }
+  
+  .ts-comp .ts-first {
+    color: #8B3434 !important;
+  }
+  
+  .ts-comp .ts-first.ts-flex {
+    color: #B14242 !important;
+  }
+  
+  .ts-comp .ts-first.ts-flex-plus {
+    color: #8B3434 !important;
+  }
+  
+  .ts-aria-only {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0;
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-fbr-flight-times-announce {
+    margin: 7px 0 5px;
+  }
+  
+  .ts-fbr-flight-times-announce a {
+    color: #666;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .ts-fbr-flight-times-announce a:focus, .ts-fbr-flight-times-announce a:hover {
+    color: #666;
+    background: rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+  }
+  
+  .ts-fbr-flight-times-announce .ts-aria-only {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0;
+  }
+  
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-tooltip ul li:before {
+    font: 400 18px/24px arial, sans-serif;
+  }
+  
+  .ts-tooltip {
+    font: 400 14px/20px arial, sans-serif;
+  }
+  
+  .ts-tooltip {
+    display: none;
+    width: 270px;
+    position: absolute;
+    padding: 14px 41px 14px 18px;
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid #8b8b8b;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, 0.12);
+    cursor: default;
+    left: 7px;
+    -webkit-transform: translatex(-50%);
+        -ms-transform: translatex(-50%);
+            transform: translatex(-50%);
+  }
+  
+  .ts-tooltip:before {
+    content: '';
+    width: 16px;
+    height: 9px;
+    background: url("/images/farebrand_refresh/ts-tooltip.png") no-repeat;
+    background-size: 16px 9px;
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+        -ms-transform: translatex(-50%);
+            transform: translatex(-50%);
+  }
+  
+  .ts-tooltip--top:before {
+    top: auto;
+    bottom: -9px;
+    -webkit-transform: translatex(-50%) rotate(180deg);
+        -ms-transform: translatex(-50%) rotate(180deg);
+            transform: translatex(-50%) rotate(180deg);
+  }
+  
+  .ts-tooltip ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .ts-tooltip ul li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .ts-tooltip ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .ts-tooltip ul li:before {
+    content: "\2022";
+    color: #C60C30;
+    position: absolute;
+    left: 0;
+    margin-top: -1px;
+  }
+  
+  .ts-tooltip .ts-close {
+    position: absolute;
+    left: auto;
+    top: 9px;
+    right: 9px;
+    background: url("/Images/manage_booking/icons/ts-close.png") no-repeat 0 0/contain;
+    border: 0;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+  }
+  
+  .ts-show-tooltip > .ts-tooltip,
+  .ts-show-tooltip-on-focus:focus + .ts-tooltip,
+  .ts-show-tooltip-on-focus:focus > .ts-tooltip,
+  .ts-show-tooltip-on-hover:hover + .ts-tooltip,
+  .ts-show-tooltip-on-hover:hover > .ts-tooltip,
+  .ts-show-tooltip-on-hover > .ts-tooltip:hover {
+    display: block;
+  }
+  
+  .ts-modal-aa {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 1050;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .ts-modal-aa.is-visible {
+    display: block;
+  }
+  
+  .ts-modal-aa .ts-modal-document {
+    width: 980px;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  
+  .ts-modal-aa .ts-modal-document .fare-custom-checkbox.focused {
+    box-shadow: none;
+    outline: none;
+    position: relative;
+  }
+  
+  .ts-modal-aa .ts-modal-document .fare-custom-checkbox.focused::before {
+    content: "";
+    width: 25px;
+    height: 24px;
+    position: absolute;
+    border: 1px solid #0b24fb;
+    left: 0;
+  }
+  
+  .ts-modal-aa .ts-modal-document .controls {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+  }
+  
+  .ts-modal-aa .ts-modal-document .controls button {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border: 1px solid #666;
+    border-radius: 8px;
+    font: normal 18px/normal Arial, Helvetica, sans-serif;
+    color: black;
+    text-overflow: clip;
+    background: transparent;
+  }
+  
+  .ts-modal-aa .ts-modal-document .controls button::before, .ts-modal-aa .ts-modal-document .controls button::after {
+    display: inline-block;
+    box-sizing: content-box;
+    width: 0.45em;
+    height: 0.1em;
+    position: absolute;
+    content: "";
+    top: 6px;
+    left: 3px;
+    border: none;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: black;
+    text-overflow: clip;
+    background: #666;
+    text-shadow: none;
+  }
+  
+  .ts-modal-aa .ts-modal-document .controls button::before {
+    -webkit-transform: rotateZ(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .ts-modal-aa .ts-modal-document .controls button::after {
+    -webkit-transform: rotateZ(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotateZ(-45deg);
+  }
+  
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-modal .ts-content header h1 {
+    font: 700 20px/26px arial, sans-serif;
+  }
+  
+  .ts-modal .ts-content .ts-success-message, .ts-modal .ts-content .ts-loading-message, .ts-modal .ts-content .ts-error-message {
+    font: 400 14px/20px arial, sans-serif;
+  }
+  
+  .ts-background-fixed {
+    overflow: hidden !important;
+  }
+  
+  .ts-modal {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    display: none;
+    margin-bottom: 60px;
+  }
+  
+  .ts-modal .ts-mask {
+    background: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ts-modal.is-visible {
+    display: block;
+  }
+  
+  .ts-modal .ts-icon-close {
+    width: 20px;
+    height: 20px;
+    background: url("/Images/farebrand_refresh/close-modal.png") no-repeat center/11px;
+    position: absolute;
+    right: 17px;
+    top: 18px;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .ts-modal .ts-icon-close:focus {
+    outline: 1px solid #0b24fb;
+    outline-offset: -1px;
+  }
+  
+  .ts-modal .ts-content {
+    padding: 13px 20px 20px;
+    background-color: #FFFFFF;
+    width: 400px;
+    box-sizing: border-box;
+    min-height: 585px;
+    border-radius: 4px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+        -ms-transform: translatex(-50%);
+            transform: translatex(-50%);
+    border: solid 1px rgba(102, 102, 102, 0.5);
+    box-shadow: 0 0 20px 0 #cecece;
+  }
+  
+  .ts-modal .ts-content header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 1px;
+  }
+  
+  .ts-modal .ts-content .ts-success-message, .ts-modal .ts-content .ts-loading-message, .ts-modal .ts-content .ts-error-message {
+    width: 80%;
+    position: relative;
+    margin: 30px auto;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .ts-modal .ts-content .ts-success-message:before, .ts-modal .ts-content .ts-loading-message:before, .ts-modal .ts-content .ts-error-message:before {
+    content: '';
+    width: 45px;
+    height: 45px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -22px;
+    background: url("/system/deliverables/components/modal/images/ts-icon-success.jpg") no-repeat 0 0/45px;
+  }
+  
+  .ts-modal .ts-content .ts-loading-message:before {
+    background-image: url("/system/deliverables/components/modal/images/ts-icon-loading.png");
+    -webkit-animation: ts-rotate360 1s linear infinite;
+            animation: ts-rotate360 1s linear infinite;
+  }
+  
+  @-webkit-keyframes ts-rotate360 {
+    form {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes ts-rotate360 {
+    form {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  .ts-modal .ts-content .ts-error-message:before {
+    background-image: url("/system/deliverables/components/modal/images/ts-icon-error.png");
+  }
+  
+  .ts-modal input[type="text"], .ts-modal input[type="password"], .ts-modal input[type="submit"] {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 44px;
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-fid {
+    float: right;
+    padding-top: 23px;
+  }
+  
+  .ts-fid__connection {
+    float: left;
+    margin-right: 50px;
+    position: relative;
+    width: 100px;
+  }
+  
+  .ts-fid__connection::before {
+    background: url("/Images/manage_booking/connection_2@2x.png") no-repeat 0 0/100% auto;
+    content: '';
+    height: 20px;
+    position: absolute;
+    width: 24px;
+    left: -33px;
+    top: 23px;
+  }
+  
+  .ts-fid__class {
+    float: right;
+    width: 230px;
+    margin-right: 20px;
+  }
+  
+  .ts-fid__label {
+    font: 400 14px/20px 'Arial';
+    color: #666;
+  }
+  
+  .ts-fid__value {
+    font: 700 20px/24px 'Arial';
+    color: #333;
+  }
+  
+  .ts-fid__value--ellipsis {
+    width: 230px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .ts-fid__information {
+    display: inline-block;
+    color: #333333;
+    text-decoration: underline;
+  }
+  
+  .ts-fid__information:hover, .ts-fid__information:focus {
+    text-decoration: none;
+    color: #333333;
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  .ts-fid__information img {
+    margin-right: 5px;
+    opacity: .5;
+  }
+  
+  .ts-fid__information:hover img, .ts-fid__information:focus img {
+    opacity: 1;
+  }
+  
+  .ts-fid .ts-tooltip {
+    top: 25px;
+  }
+  
+  .ts-fid .ts-tooltip-wrap {
+    position: relative;
+    margin-top: 4px;
+  }
+  
+  .ts-fid .ts-show-tooltip img {
+    opacity: 1;
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-fie__place {
+    font: 400 16px/22px arial, sans-serif;
+  }
+  
+  .ts-fie sup {
+    font: 700 14px/20px arial, sans-serif;
+  }
+  
+  .ts-fie__infographic time, .ts-fie__infographic p, .ts-fie__infographic a {
+    font: 400 12px/18px arial, sans-serif;
+  }
+  
+  .ts-aria-only {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0;
+  }
+  
+  .ts-fie {
+    border-radius: 0 0 3px 3px;
+    clear: both;
+    height: 69px;
+    overflow: initial;
+    position: relative;
+    width: 393px;
+  }
+  
+  .ts-fie__place {
+    color: #333333;
+    float: left;
+    margin-top: 5px;
+    width: 97px;
+  }
+  
+  .ts-fie__place p, .ts-fie__place span {
+    display: block;
+    padding: 0;
+  }
+  
+  .ts-fie__departure, .ts-fie__arrival {
+    font: 700 24px/28px arial, sans-serif;
+    vertical-align: top;
+    position: relative;
+  }
+  
+  .ts-fie sup {
+    top: -3px;
+    position: relative;
+    right: 4px;
+  }
+  
+  .ts-fie__right-side {
+    float: right;
+    overflow: hidden;
+    width: 85px;
+  }
+  
+  .ts-fie__infographic {
+    float: left;
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .ts-fie__infographic time {
+    color: #666666;
+    display: block;
+    text-indent: 18px;
+    font-size: 13px;
+    margin-top: 2px;
+  }
+  
+  .ts-fie__infographic p, .ts-fie__infographic a {
+    color: #333333;
+    position: relative;
+    top: 0;
+    left: 10px;
+    display: inline-block;
+    font-size: 13px;
+  }
+  
+  .ts-fie__infographic .ts-info {
+    position: absolute;
+    bottom: -18px;
+    top: auto;
+    overflow: hidden;
+    max-width: 320px;
+    left: 57%;
+    word-wrap: break-word;
+    white-space: nowrap;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-overflow: ellipsis;
+  }
+  .ts-fie__infographic a {
+    text-decoration: underline;
+  }
+  
+  .ts-fie__infographic a:hover, .ts-fie__infographic a:focus {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  .ts-fie__infographic:before {
+    content: '';
+    border: solid 1px rgba(187, 187, 187, 0.5);
+    position: absolute;
+    width: 81%;
+    top: 34px;
+    right: 0;
+  }
+  
+  .ts-fie__transport {
+    width: 177px;
+    text-align: left;
+    position: relative;
+    margin-top: -2px;
+  }
+  
+  .ts-fie__transport img {
+    position: relative;
+  }
+  
+  .ts-fie__transport:after {
+    content: '';
+    background: #BBBBBB;
+    border-radius: 10px;
+    right: -2px;
+    top: 12px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  
+  .ts-fie__transport--has-stops:before {
+    content: '';
+    background: #FBFBFB;
+    border: solid 2px #BDBDBD;
+    border-radius: 10px;
+    right: 72px;
+    top: 12px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+  }
+  
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-fip__modal .place p, .ts-fip__modal .place span {
+    font: 400 16px/22px arial, sans-serif;
+  }
+  
+  .ts-fip__modal__label, .ts-fip__modal__code, .ts-fip__modal__connection time, .ts-fip__modal .place .terminal, .ts-fip__modal .place .terminal p, .ts-fip__modal .place .terminal span {
+    font: 400 14px/20px arial, sans-serif;
+  }
+  
+  .ts-fip__modal__connection strong {
+    font: 700 14px/20px arial, sans-serif;
+  }
+  
+  .ts-fip__modal__panel__header time {
+    font: 400 12px/18px arial, sans-serif;
+  }
+  
+  .ts-fip__upgrade {
+    font: 700 12px/18px arial, sans-serif;
+  }
+  
+  .ts-fip {
+    /* IE10 fix (background overlaps border) */
+    border: solid #c7c7c7 1px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #f7f7f7;
+  }
+  
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .ts-fip {
+      padding-left: 1px;
+      /*rtl:begin:remove*/
+      padding-left: 0;
+      /*rtl:end:remove*/
+    }
+  }
+  
+  .ts-fip__header {
+    clear: both;
+    background: #FFFFFF;
+    border-radius: 2px 2px 0 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    padding: 0 20px 0 14px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .ts-fip__header:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .ts-fip__header--fullwidth {
+    height: 39px;
+    padding-top: 9px;
+  }
+  
+  .ts-fip__header--fullwidth .ts-fip__fin-list {
+    margin-top: 1px;
+  }
+  
+  .ts-fip__date-container {
+    float: left;
+    position: relative;
+    top: -2px;
+  }
+  
+  .ts-fip__date-container time {
+    color: #666666;
+    font: 500 12px/12px 'Arial' !important;
+  }
+  
+  .ts-fip__date-container .ts-fip__bound {
+    position: relative;
+    top: -1px;
+    color: #333333;
+    font: 700 14px/20px 'Arial' !important;
+    margin: 0;
+  }
+  
+  .ts-fip__fin-list {
+    float: right;
+    margin: 7px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .ts-fip__fin-item {
+    float: left;
+  }
+  
+  .ts-fip__fin-item::before {
+    content: "\2022";
+    position: absolute;
+    width: 0;
+    height: 0;
+    color: transparent;
+  }
+  
+  .ts-fip__aircraft, .ts-fip__type {
+    color: #666666;
+    font: 300 12px/14px arial, sans-serif;
+    letter-spacing: -.04em;
+    text-align: right;
+  }
+  
+  .ts-fip__aircraft {
+    color: #333333;
+  }
+  
+  .ts-fip__fin-group {
+    display: table;
+  }
+  
+  .ts-fip__fin-icon-col {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+  }
+  
+  .ts-fip__fin-icon-col--special {
+    padding-left: 12px;
+    padding-right: 5px;
+  }
+  
+  .ts-fip__fin-info-col {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .ts-fip__fin {
+    float: left;
+  }
+  
+  .ts-fip__number {
+    color: #666666;
+    float: left;
+    font: 700 14px/20px arial, sans-serif !important;
+    margin: 11px 0 0;
+  }
+  
+  .ts-fip__upgrade {
+    font-size: 13px;
+    background: #FFFFFF;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.16);
+    color: #b15a02;
+    left: 48px;
+    padding: 10px 12px 9px;
+    position: absolute;
+    top: -6px;
+    max-width: 160px;
+  }
+  
+  .ts-fip__upgrade:after {
+    border: solid 4px #cccccc;
+    border-color: transparent #cccccc transparent transparent;
+    content: '';
+    position: absolute;
+    right: -4px;
+    top: 1px;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  
+  .ts-fip__footer {
+    background: #FFFFFF;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .ts-fip__footer ul {
+    margin: 0;
+  }
+  
+  .ts-fip__operator {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 370px;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  .ts-fip__item {
+    border-top: solid 1px #c7c7c7;
+    min-height: 24px;
+    padding: 6px 0 0 14px;
+  }
+  
+  .ts-fip__item:first-child {
+    border-top: 0;
+  }
+  
+  .ts-fip__item a {
+    color: #333333;
+    text-decoration: underline;
+  }
+  
+  .ts-fip__item a:hover, .ts-fip__item a:focus {
+    text-decoration: none;
+    color: #333333;
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  .ts-fip__item img {
+    margin-right: 5px;
+  }
+  
+  .ts-fip__item--special img {
+    margin-right: 10px;
+  }
+  
+  .ts-fip--disabled {
+    position: relative;
+  }
+  
+  .ts-fip--disabled:after {
+    background: rgba(255, 255, 255, 0.3);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border-radius: 3px;
+  }
+  
+  .ts-fip--disabled a {
+    text-decoration: none;
+  }
+  
+  .ts-fip__modal {
+    /* Modal content */
+    /* Generic style */
+  }
+  
+  .ts-fip__modal .ts-content.ts-content {
+    position: static;
+    border: 0;
+    min-height: 231px;
+    width: 952px;
+    box-shadow: none;
+    padding: 20px;
+    margin: 20px auto;
+    left: auto;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+  }
+  
+  .ts-fip__modal .ts-modal.ts-modal {
+    overflow: auto;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .ts-fip__modal .ts-modal.ts-modal .ts-icon-close {
+    background: url(/Images/farebrand_refresh/close-modal.png) no-repeat center/11px;
+  }
+  
+  .ts-fip__modal .ts-mask.ts-mask {
+    position: absolute;
+    background: none;
+  }
+  
+  .ts-fip__modal .ts-fie {
+    width: 421px;
+  }
+  
+  .ts-fip__modal .ts-fie__place {
+    width: 86px;
+  }
+  
+  .ts-fip__modal .ts-fie__transport {
+    width: 192px;
+  }
+  
+  .ts-fip__modal .ts-fie__transport--has-stops:before {
+    right: 92px;
+  }
+  
+  .ts-fip__modal .ts-fie__infographic time {
+    text-indent: -4px;
+  }
+  
+  .ts-fip__modal .ts-fie__infographic p, .ts-fip__modal .ts-fie__infographic a {
+    left: -2px;
+  }
+  .ts-fip__modal .ts-fie__infographic .ts-info {
+    left: 48%;
+  }
+  
+  .ts-fip__modal .ts-fie__right-side {
+    width: 121px;
+  }
+  
+  .ts-fip__modal .ts-enable-focus.ts-enable-focus:focus {
+    box-shadow: 0 0 0 1px #0b24fb;
+    outline: none;
+  }
+  
+  .ts-fip__modal__title {
+    display: inline-block;
+    font: 400 22px/22px arial, sans-serif !important;
+  }
+  
+  .ts-fip__modal__sub-title {
+    font-size: 16px;
+    margin-bottom: 11px;
+    color: #333333;
+  }
+  
+  .ts-fip__modal__heading {
+    color: #333333;
+    font: 400 16px/22px arial, sans-serif !important;
+    margin-top: -2px;
+    padding: 0;
+    letter-spacing: -.010em;
+    display: inline-block;
+  }
+  
+  .ts-fip__modal__left {
+    float: left;
+  }
+  
+  .ts-fip__modal__right {
+    float: right;
+    margin-top: 6px;
+    width: 429px;
+  }
+  
+  .ts-fip__modal__label {
+    color: #666666;
+    display: block;
+    margin-bottom: 1px;
+  }
+  
+  .ts-fip__modal__code {
+    color: #333333;
+    display: block;
+    margin-top: 4px;
+    width: 100px;
+    line-height: 18px;
+  }
+  
+  .ts-fip__modal__code--exclusive, .ts-fip__modal__code--upgrade {
+    font-weight: 700;
+    line-height: 20px;
+    position: relative;
+  }
+  
+  .ts-fip__modal__code--exclusive {
+    width: 120px;
+  }
+  
+  .ts-fip__modal__code--exclusive img {
+    left: -32px;
+    position: absolute;
+    top: 1px;
+  }
+  
+  .ts-fip__modal__code--upgrade {
+    color: #B15A02;
+  }
+  
+  .ts-fip__modal__code--upgrade img {
+    left: -40px;
+    position: absolute;
+    top: 4px;
+  }
+  
+  .ts-fip__modal__panel {
+    background: #FBFBFB;
+    border-radius: 4px;
+    border: 1px solid rgba(102, 102, 102, 0.4);
+    box-shadow: 0 0 40px rgba(206, 206, 206, 0.3);
+    position: relative;
+    width: 100%;
+  }
+  
+  .ts-fip__modal__panel [aria-hidden='true'] a {
+    display: none !important;
+  }
+  
+  .ts-fip__modal__panel__header {
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 41px;
+    padding: 6px 14px 2px;
+  }
+  
+  .ts-fip__modal__panel__header time {
+    color: #666666;
+    display: block;
+  }
+  
+  .ts-fip__modal__panel__header span {
+    color: #666666;
+  }
+  
+  .ts-fip__modal__panel .details .name {
+    color: #333333;
+    display: block;
+    font: 700 24px/28px arial, sans-serif;
+    position: relative;
+  }
+  
+  .ts-fip__modal__panel .details .name img {
+    left: -46px;
+    position: absolute;
+    top: -11px;
+  }
+  
+  .ts-fip__modal__panel .content {
+    clear: both;
+    background: #FBFBFB;
+    border-radius: 0 0 4px 4px;
+    box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.1);
+    min-height: 94px;
+    overflow: initial;
+    padding: 16px 20px 8px;
+    position: relative;
+  }
+  
+  .ts-fip__modal__panel .content:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .ts-fip__modal__wrap {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  
+  .ts-fip__modal .departure-time,
+  .ts-fip__modal .arrival-time {
+    font: 700 24px/28px arial, sans-serif;
+    vertical-align: top;
+  }
+  
+  .ts-fip__modal__connection {
+    height: 60px;
+    background: #FFFFFF;
+    padding: 5px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .ts-fip__modal__connection .exchange {
+    position: absolute;
+    color: #666666;
+    width: 400px;
+    top: 28px;
+    left: 54%;
+    font: 300 12px/14px arial, sans-serif;
+    font-style: italic;
+  }
+  
+  .ts-fip__modal__connection img {
+    float: left;
+    margin: 0 12px 0 5px;
+  }
+  
+  .ts-fip__modal__connection strong {
+    color: #333333;
+    display: block;
+    padding: 10px 0 0;
+  }
+  
+  .ts-fip__modal__connection time {
+    color: #666666;
+  }
+  
+  .ts-fip__modal .place {
+    width: 90px;
+    float: left;
+    color: #333333;
+  }
+  
+  .ts-fip__modal .place p, .ts-fip__modal .place span {
+    padding: 0;
+    display: block;
+  }
+  
+  .ts-fip__modal .place .terminal {
+    color: #666666;
+    margin-top: 2px;
+    height: 58px;
+    overflow: hidden;
+  }
+  
+  .ts-fip__modal .fare-detail, .ts-fip__modal .status-detail, .ts-fip__modal .aircraft-detail {
+    float: left;
+    padding: 0;
+  }
+  
+  .ts-fip__modal .fare-detail {
+    min-height: 10px;
+    width: 190px;
+  }
+  
+  .ts-fip__modal .status-detail {
+    margin-left: 41px;
+    min-height: 10px;
+    width: 141px;
+  }
+  
+  .ts-fip__modal .aircraft-detail {
+    min-height: 10px;
+    width: 211px;
+  }
+  
+  .ts-fip__modal .aircraft-detail .name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 210px;
+  }
+  
+  .ts-fip__modal__footer {
+    background: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    border-top: solid 1px rgba(102, 102, 102, 0.4);
+    padding: 10px 15px;
+  }
+  
+  .ts-fip__modal__footer--icon {
+    position: relative;
+    padding-left: 45px;
+  }
+  
+  .ts-fip__modal__footer--upgrade {
+    color: #B15A02;
+  }
+  
+  .ts-fip__modal__footer caption {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .ts-fip__modal__footer table {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .ts-fip__modal__footer table th {
+    font-weight: 400;
+  }
+  
+  .ts-fip__modal__footer table td, .ts-fip__modal__footer table th {
+    padding: 12px 0;
+    /* Fix for IE */
+    text-align: left;
+  }
+  
+  .ts-fip__modal__footer table thead th {
+    padding: 0 0 9px;
+  }
+  
+  .ts-fip__modal__footer table tbody tr:last-child td, .ts-fip__modal__footer table tbody tr:last-child th {
+    padding-bottom: 2px;
+  }
+  
+  .ts-fip__modal__footer table td, .ts-fip__modal__footer table [scope='row'] {
+    border-top: solid 1px #D1D1D1;
+    color: #333333;
+    font-size: 14px;
+  }
+  
+  .ts-fip__modal__footer-icon {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 15px;
+  }
+  
+  .ts-fip__fie {
+    padding: 17px 14px 20px;
+  }
+  
+  .ts-fip--fullwidth .ts-fip__content {
+    clear: both;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .ts-fip--fullwidth .ts-fip__content:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .ts-fip--fullwidth .ts-fip__fie {
+    float: left;
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-fbr-flight-sort-filter {
+    border: solid 1px #C7C7C7;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    font-size: 13px;
+    color: #333;
+    line-height: 22px;
+    /* hide dotted outline (must target the element!) */
+  }
+  
+  .ts-fbr-flight-sort-filter--hidden {
+    display: none;
+  }
+  
+  .ts-fbr-flight-sort-filter__core {
+    position: relative;
+    clear: both;
+  }
+  
+  .ts-fbr-flight-sort-filter__core:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .ts-fbr-flight-sort-filter__column--left {
+    float: left;
+    padding: 15px;
+  }
+  
+  .ts-fbr-flight-sort-filter__column--left.ts-fbr-flight-sort-filter__column--multiselect {
+    padding: 0;
+  }
+  
+  .ts-fbr-flight-sort-filter__column--right {
+    float: right;
+    padding-left: 15px;
+  }
+  
+  .ts-fbr-flight-sort-filter__filter {
+    clear: both;
+  }
+  
+  .ts-fbr-flight-sort-filter__filter:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .ts-fbr-flight-sort-filter__filter label {
+    float: left;
+  }
+  
+  .ts-fbr-flight-sort-filter__filter .ts-fbr-flight-sort-filter__select-container {
+    float: left;
+  }
+  
+  .ts-fbr-flight-sort-filter__filter > .ts-fbr-flight-sort-filter__transparent-select {
+    float: left;
+  }
+  
+  .ts-fbr-flight-sort-filter__select-container {
+    position: relative;
+  }
+  
+  .ts-fbr-flight-sort-filter__select-container:before {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    -webkit-transform: translatey(-50%) rotate(180deg);
+        -ms-transform: translatey(-50%) rotate(180deg);
+            transform: translatey(-50%) rotate(180deg);
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: url("/Images/farebrand_refresh/arrow@2x.png") no-repeat center center;
+    background-size: contain;
+    pointer-events: none;
+  }
+  
+  .ts-fbr-flight-sort-filter__transparent-select {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 1px 20px 0 5px;
+    padding-top: 2px \0/IE9;
+    background-color: #FFF;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    line-height: 18px;
+    border: solid 1px transparent;
+  }
+  
+  .ts-fbr-flight-sort-filter__transparent-select::-ms-expand {
+    display: none;
+  }
+  
+  .ts-fbr-flight-sort-filter__selected {
+    display: none;
+  }
+  
+  .ts-fbr-flight-sort-filter__alert {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby {
+    clear: both;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__header {
+    padding: 15px 0;
+    float: left;
+    margin-right: 11px;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item-container {
+    margin: 0;
+    float: left;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item-container .ts-fbr-flight-sort-filter__sortby__item {
+    float: left;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item-container .ts-fbr-flight-sort-filter__sortby__item:last-child:before {
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item {
+    display: block;
+    border-left: solid 1px #C7C7C7;
+    position: relative;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: solid 1px #C7C7C7;
+    z-index: 1;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item--active a {
+    color: #333;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item--active:after {
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    content: "";
+    border-bottom: solid 3px #C60C30;
+    z-index: 2;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item--active .ts-fbr-flight-sort-filter__selected {
+    display: block;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item-core {
+    display: block;
+    color: #666;
+    padding: 15px 11px;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .ts-fbr-flight-sort-filter__sortby__item-core:focus, .ts-fbr-flight-sort-filter__sortby__item-core:hover {
+    color: #333;
+    background: rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+  }
+  
+  .ts-fbr-flight-sort-filter select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-fbr-toggle {
+    clear: both;
+    margin-top: 30px;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    height: 16px;
+  }
+  
+  .ts-fbr-toggle:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .ts-fbr-toggle__button {
+    background: #fff;
+    border: solid 1px #606060;
+    border-radius: 20px;
+    color: #666;
+    padding: 5px 55px 5px 25px;
+    box-shadow: inset 4px 3px 0 0 #F2F2F2;
+    letter-spacing: 0.05em;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ts-fbr-toggle__button--hidden {
+    display: none;
+  }
+  
+  .ts-fbr-toggle__button::after {
+    background: url("/images/farebrand_refresh/red-chevron@2x.png");
+    background-size: 100% auto;
+    content: '';
+    height: 7px;
+    right: 20px;
+    top: 11px;
+    position: absolute;
+    width: 13px;
+  }
+  
+  .ts-fbr-toggle__button:hover, .ts-fbr-toggle__button:focus {
+    background: rgba(0, 0, 0, 0.05);
+    color: #333;
+  }
+  
+  .ts-fbr-toggle__all {
+    display: none;
+  }
+  
+  .ts-fbr-toggle__all--visible {
+    display: inline-block;
+  }
+  
+  .ts-fbr-toggle__others--hidden {
+    display: none;
+  }
+  
+  .ts-fbr-toggle__top {
+    color: #333333;
+    text-decoration: underline;
+    position: absolute;
+    right: 0;
+  }
+  
+  .ts-fbr-toggle__top:hover, .ts-fbr-toggle__top:focus {
+    text-decoration: none;
+    color: #333333;
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-ifl-row {
+    position: relative;
+    margin-bottom: 25px;
+    padding: 20px 24px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 1px 14px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ts-ifl-row--hidden, .ts-ifl-row--disabled {
+    display: none;
+  }
+  
+  .ts-ifl-row::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: 4px;
+    background: #4a888b;
+    border-radius: 3px 3px 0 0;
+  }
+  
+  .ts-ifl-row__header h3 {
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .ts-ifl-row__header-content {
+    color: #343434;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  
+  .ts-ifl-row__header-badge {
+    position: absolute;
+    top: -5px;
+    right: 29px;
+    background: white;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.17);
+  }
+  .ts-ifl-row__header-badge--hidden {
+    display: none !important;
+  }
+  .ts-ifl-row__header-badge::after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: 1px;
+    border: solid 3px #cccccc;
+    border-color: transparent #cccccc transparent transparent;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .ts-ifl-row__header-badge-content {
+    display: inline-block;
+    padding: 16px 4px 5px;
+  }
+  .ts-ifl-row__header-badge .ts-tooltip {
+    z-index: 3;
+    margin-top: 14px;
+    -webkit-transform: initial;
+        -ms-transform: initial;
+            transform: initial;
+    margin-left: -248px;
+    padding: 15px;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: left;
+    left: auto;
+    right: -2px;
+  }
+  .ts-ifl-row__header-badge .ts-tooltip .ts-close {
+    width: 9px;
+    height: 9px;
+  }
+  .ts-ifl-row__badge {
+    position: absolute;
+    top: -5px;
+    right: 29px;
+    background: white;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.17);
+  }
+  .ts-ifl-row__badge--hidden {
+    display: none !important;
+  }
+  .ts-ifl-row__badge::after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: 1px;
+    border: solid 3px #cccccc;
+    border-color: transparent #cccccc transparent transparent;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .ts-ifl-row__badge-content {
+    display: inline-block;
+    padding: 16px 4px 5px;
+  }
+  .ts-ifl-row__badge .ts-tooltip {
+    z-index: 3;
+    margin-top: 14px;
+    padding: 12px 15px 7px;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: left;
+    left: auto;
+    -webkit-transform: initial;
+        -ms-transform: initial;
+            transform: initial;
+    right: -6px;
+  }
+  .ts-ifl-row__badge .ts-tooltip::before {
+    left: auto;
+    right: 0;
+  }
+  .ts-ifl-row__badge .ts-tooltip img {
+    margin-top: -1px;
+    margin-right: 4px;
+  }
+  .ts-ifl-row__badge .ts-tooltip p {
+    margin: 5px 0;
+  }
+  .ts-ifl-row__badge .ts-tooltip .ts-close {
+    width: 9px;
+    height: 9px;
+  }
+  .ts-ifl-row__body {
+    margin: 17px 0;
+  }
+  
+  .ts-ifl-row__body-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .ts-ifl-row__footer {
+    display: table;
+    width: 100%;
+  }
+  
+  .ts-ifl-row__footer-info-wrapper {
+    margin-top: 10px;
+  }
+  
+  .ts-ifl-row__footer-info {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    color: #343434;
+    text-decoration: underline;
+  }
+  
+  .ts-ifl-row__footer-info::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-bottom: -3px;
+    margin-right: 4px;
+    background: no-repeat url("/Images/farebrand_refresh/info-icon@2x.png") 0 0 / 14px;
+  }
+  
+  .ts-ifl-row__footer-info::after {
+    content: '';
+    clear: both;
+  }
+  
+  .ts-ifl-row__footer-info:hover, .ts-ifl-row__footer-info:focus {
+    color: #343434;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  .ts-ifl-row__footer-td {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .ts-ifl-row__footer-details {
+    padding-right: 70px;
+    color: #343434;
+  }
+  
+  .ts-ifl-row__footer-action {
+    position: relative;
+    width: 160px;
+    padding-left: 20px;
+    text-align: right;
+  }
+  
+  .ts-ifl-row__footer-action .ts-button.ts-button {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+  }
+  
+  .ts-ifl-row__footer-btn-wrapper {
+    margin-top: 30px;
+  }
+  
+  .ts-ifl-row__footer-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: calc(100% - 20px);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    color: #343434;
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-ifl {
+    margin-top: 25px;
+  }
+  
+  .ts-ifl__footer {
+    margin: 30px 0;
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  .ts-ifl-container {
+    position: relative;
+    width: 960px;
+    margin: 20px -30px -40px -30px;
+    padding: 25px 30px 15px 30px;
+  }
+  
+  .ts-ifl-container__bg {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    margin-left: -50vw;
+    background: #fbfbfb;
+  }
+  
+  .ts-ifl-container .ts-fbr-flight-sort-filter {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .ts-ifl-container__header {
+    margin: 30px 0 20px 0;
+    color: black;
+  }
+  
+  .ts-ifl-container__header:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .ts-ifl-container__header-title {
+    text-align: center;
+    /* Reset styles for header */
+  }
+  
+  .ts-ifl-container__header-title h3 {
+    margin: 0;
+    font-family: inherit !important;
+    line-height: inherit;
+  }
+  
+  .ts-ifl-container__header-title-content {
+    color: #333333;
+    display: inline-block;
+    position: relative;
+    background: #fbfbfb;
+    /* Important needed to override codebase h3 style */
+    padding: 0 15px !important;
+    font-size: 20px;
+  }
+  
+  .ts-ifl-container__header-title-content:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 17px;
+    width: 35px;
+    height: 13px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .ts-ifl-container__header-title:after {
+    content: '';
+    border-bottom: 1px solid #c6c6c6;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+  
+  /**
+   * Common styles used across projects
+   */
+  /**
+   * Colours following new guidelines (TS)
+   **/
+  /**
+   * Other colours (TS)
+   */
+  /**
+   * Common responsive breakpoints
+   */
+  /**
+   * Fonts following new guide lines (TS)
+   **/
+  /**
+   * Component style
+   */
+  .ts-multiselect {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #c7c7c7;
+  }
+  
+  .ts-multiselect__head {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .ts-multiselect__head:focus:not(.ts-multiselect__head--unfocused) {
+    outline: 1px solid blue;
+  }
+  
+  .ts-multiselect__heading {
+    position: absolute;
+    left: 14px;
+    top: calc(50% - 10.5px);
+    font-size: 13px;
+    color: #333;
+    transition: top, font-size, .3s ease;
+  }
+  
+  .ts-multiselect__active-filters {
+    display: none;
+    position: absolute;
+    left: 14px;
+    bottom: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ts-multiselect__arrow {
+    position: absolute;
+    right: 22px;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    top: calc(50% - 4px);
+    border: solid #444;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg) scale(1.5);
+        -ms-transform: rotate(45deg) scale(1.5);
+            transform: rotate(45deg) scale(1.5);
+  }
+  
+  .ts-multiselect__list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    border-radius: 0 0 3px 3px;
+    background: white;
+  }
+  
+  .ts-multiselect__list-item {
+    position: relative;
+  }
+  
+  .ts-multiselect__list-item--all {
+    font-weight: bold;
+  }
+  
+  .ts-multiselect__list-item--active {
+    outline: 1px solid blue;
+    outline-offset: -5px;
+  }
+  
+  .ts-multiselect__list-item-content {
+    padding: 10px 13px;
+    color: #333;
+  }
+  
+  .ts-multiselect__list-item-content:focus {
+    outline: 1px solid blue;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap {
+    top: 1px;
+    position: relative;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap label {
+    position: relative;
+    display: inline-block;
+    min-width: 22px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap label:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    border-radius: 2px;
+    border: solid #666 1px;
+    box-shadow: 2px 2px 0 0 #F2F2F2 inset;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap input[type="checkbox"] {
+    top: 50%;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap input[type="checkbox"]:checked + label:before {
+    background: url("/Images/my-trips/common/ts-checkbox.png") no-repeat 50% 50% #FFFFFF;
+    background-size: 12px 9px;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap input[type="checkbox"]:focus + label:before {
+    outline: 1px solid #0b24fb;
+    outline-offset: -1px;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap.ts-submiterror label:before {
+    border-color: #C60C30;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap label::before {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+  }
+  
+  .ts-multiselect__list-item-content .ts-checkbox-wrap input[type="checkbox"]:focus + label:before {
+    outline: none;
+  }
+  
+  .ts-multiselect__list-item-text {
+    position: relative;
+    top: -3px;
+    padding-left: 6px;
+  }
+  
+  .ts-multiselect__list-item:not(:first-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 13px;
+    width: calc(100% - 25px);
+    border-top: 1px solid #c7c7c7;
+  }
+  
+  .ts-multiselect--active .ts-multiselect__heading {
+    top: 5px;
+    font-size: 12px;
+  }
+  
+  .ts-multiselect--active .ts-multiselect__active-filters {
+    display: block;
+  }
+  
+  .ts-multiselect--expanded .ts-multiselect__list {
+    display: block;
+  }
+  
+  .ts-multiselect--expanded .ts-multiselect__arrow {
+    margin-top: 2px;
+    -webkit-transform: rotate(-135deg) scale(1.5);
+        -ms-transform: rotate(-135deg) scale(1.5);
+            transform: rotate(-135deg) scale(1.5);
+  }
+  .travel-mode{
+    width:34px;
+    border-width:0px;
+  }
+  
+  /*End ts-search-result.css*/
+
+  /* Modal popup*/
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.popup {
+  position: fixed;  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+  z-index:10;
+  width: 100%;
+  height: 100%
+}
+.popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+  min-height: 231px;
+  width: 952px;
+} /* Modal popup*/

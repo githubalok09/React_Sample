@@ -1,0 +1,1198 @@
+{
+    "SearchRes": {
+      "RequestType": "RES_PRICE",
+        "SearchResponse": {
+        "adminFeeApplicableInd": {
+          "options": [
+            {
+              "serialNo": "0",
+              "standardAirFare": "0",
+              "corpCugo": "false",
+              "paxCount": "1",
+              "airPrcId": "2001",
+              "ruleNo": "1",
+              "totalFare": "2615",
+              "taxes": "725",
+              "airFare": "1890",
+              "carrierImposedCharge": "500",
+              "totalSurcharge": "0",
+              "currencyCode": "AED",
+              "id": "0",
+              "baseMiles": "0",
+              "tierMiles": "0",
+              "totMiles": "0",
+              "fareBreakdown": {
+                "code": "ADT",
+                "quantity": "1",
+                "airFare": "1890",
+                "disBaseFare": "0",
+                "taxes": "725",
+                "surCharge": "0",
+                "totalPrice": "2615",
+                "currencyCode": "AED",
+                "id": "0",
+                "milesFare": "0",
+                "ccSurchargeAmt": "0",
+                "amountPGE": "0",
+                "yqFareAmt": "500"
+              },
+              "flights": [
+                {
+                  "to": "JAI",
+                  "from": "DXB",
+                  "type": "OutBound",
+                  "optionId": "0",
+                  "id": "0",
+                  "seqNo": "0",
+                  "elapsedTime": "20:15",
+                  "flightDetails": [
+                    {
+                      "id": "0",
+                      "flightId": "0",
+                      "optionId": "0",
+                      "flightCode": "EK514",
+                      "airLegId": "2004",
+                      "deptDate": "2019/02/10",
+                      "deptTime": "1510",
+                      "deptAirport": "DXB",
+                      "arrDate": "2019/02/10",
+                      "arrTime": "1955",
+                      "arrAirport": "DEL",
+                      "cclass": "Economy",
+                      "bookClass": "T",
+                      "duration": "3hr 15min",
+                      "stops": "0",
+                      "aircraft": "Boeing 777-300ER",
+                      "aircraftType": "EK",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1XLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "77W",
+                      "brandCode": "SAVER",
+                      "sequenceNo": "0",
+                      "paidSeating": "PAID",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    },
+                    {
+                      "id": "1",
+                      "flightId": "0",
+                      "optionId": "0",
+                      "flightCode": "AI0491",
+                      "airLegId": "2006",
+                      "deptDate": "2019/02/11",
+                      "deptTime": "1200",
+                      "deptAirport": "DEL",
+                      "arrDate": "2019/02/11",
+                      "arrTime": "1255",
+                      "arrAirport": "JAI",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "0hr 55min",
+                      "stops": "0",
+                      "aircraft": "Airbus Industrie A321 Jet",
+                      "aircraftType": "AI",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1XLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "321",
+                      "sequenceNo": "0",
+                      "paidSeating": "COMPLIMENTARY",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    }
+                  ]
+                },
+                {
+                  "to": "DXB",
+                  "from": "JAI",
+                  "type": "Inbound",
+                  "optionId": "0",
+                  "id": "1",
+                  "seqNo": "1",
+                  "elapsedTime": "11:55",
+                  "flightDetails": [
+                    {
+                      "id": "2",
+                      "flightId": "1",
+                      "optionId": "0",
+                      "flightCode": "AI0492",
+                      "airLegId": "2008",
+                      "deptDate": "2019/03/30",
+                      "deptTime": "1330",
+                      "deptAirport": "JAI",
+                      "arrDate": "2019/03/30",
+                      "arrTime": "1430",
+                      "arrAirport": "DEL",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "1hr 00min",
+                      "stops": "0",
+                      "aircraft": "Airbus Industrie A321 Jet",
+                      "aircraftType": "AI",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1WLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "321",
+                      "sequenceNo": "0",
+                      "paidSeating": "COMPLIMENTARY",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    },
+                    {
+                      "id": "3",
+                      "flightId": "1",
+                      "optionId": "0",
+                      "flightCode": "EK515",
+                      "airLegId": "2010",
+                      "deptDate": "2019/03/30",
+                      "deptTime": "2125",
+                      "deptAirport": "DEL",
+                      "arrDate": "2019/03/30",
+                      "arrTime": "2355",
+                      "arrAirport": "DXB",
+                      "cclass": "Economy",
+                      "bookClass": "T",
+                      "duration": "4hr 00min",
+                      "stops": "0",
+                      "aircraft": "Boeing 777-300ER",
+                      "aircraftType": "EK",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1WLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "77W",
+                      "brandCode": "SAVER",
+                      "sequenceNo": "0",
+                      "paidSeating": "PAID",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    }
+                  ]
+                }
+              ],
+              "FBCodes": [
+                {
+                  "segment": "DXBDELJAI",
+                  "fbCode": "T1XLPAE1",
+                  "mktOnd": "DXBJAI",
+                  "mktAirline": "EK"
+                },
+                {
+                  "segment": "JAIDELDXB",
+                  "fbCode": "T1WLPAE1",
+                  "mktOnd": "DXBJAI",
+                  "mktAirline": "EK"
+                }
+              ],
+              "totElapsedTime": "32:10",
+              "taxDetail": [
+                {
+                  "paxType": "ADT",
+                  "taxCode": "AE",
+                  "perPaxAmt": "75"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "F6",
+                  "perPaxAmt": "35"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "TP",
+                  "perPaxAmt": "5"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "ZR",
+                  "perPaxAmt": "10"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "IN",
+                  "perPaxAmt": "40"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "WO",
+                  "perPaxAmt": "20"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "YQ",
+                  "perPaxAmt": "500"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "YR",
+                  "perPaxAmt": "40"
+                }
+              ],
+              "flightSortNo": "0",
+              "isInvalidCarries": "false",
+              "totalMilesFare": "0",
+              "carrierImposedChargeRev": "0",
+              "sortedFilterIndex": [
+                {
+                  "sortType": "arrivalSort",
+                  "sortIndex": "22",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "departureSort",
+                  "sortIndex": "22",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "durationSort",
+                  "sortIndex": "17",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "priceSort",
+                  "sortIndex": "1",
+                  "defaultSort": "true"
+                }
+              ]
+            },
+            {
+             
+              "serialNo": "1",
+              "standardAirFare": "0",
+              "corpCugo": "false",
+              "paxCount": "1",
+              "airPrcId": "2004",
+              "ruleNo": "1",
+              "totalFare": "2715",
+              "taxes": "725",
+              "airFare": "1990",
+              "carrierImposedCharge": "500",
+              "totalSurcharge": "0",
+              "currencyCode": "AED",
+              "id": "1",
+              "baseMiles": "0",
+              "tierMiles": "0",
+              "totMiles": "0",
+              "fareBreakdown": {
+                "code": "ADT",
+                "quantity": "1",
+                "airFare": "1990",
+                "disBaseFare": "0",
+                "taxes": "725",
+                "surCharge": "0",
+                "totalPrice": "2715",
+                "currencyCode": "AED",
+                "id": "1",
+                "milesFare": "0",
+                "ccSurchargeAmt": "0",
+                "amountPGE": "0",
+                "yqFareAmt": "500"
+              },
+              "flights": [
+                {
+                  "to": "JAI",
+                  "from": "DXB",
+                  "type": "OutBound",
+                  "optionId": "1",
+                  "id": "0",
+                  "seqNo": "0",
+                  "elapsedTime": "13:25",
+                  "flightDetails": [
+                    {
+                      "id": "0",
+                      "flightId": "0",
+                      "optionId": "1",
+                      "flightCode": "EK512",
+                      "airLegId": "2013",
+                      "deptDate": "2019/02/10",
+                      "deptTime": "2200",
+                      "deptAirport": "DXB",
+                      "arrDate": "2019/02/11",
+                      "arrTime": "0240",
+                      "arrAirport": "DEL",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "3hr 10min",
+                      "stops": "0",
+                      "aircraft": "Boeing 777-300ER",
+                      "aircraftType": "EK",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "L1XLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "77W",
+                      "brandCode": "SAVER",
+                      "sequenceNo": "0",
+                      "paidSeating": "PAID",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    },
+                    {
+                      "id": "1",
+                      "flightId": "0",
+                      "optionId": "1",
+                      "flightCode": "AI0491",
+                      "airLegId": "2015",
+                      "deptDate": "2019/02/11",
+                      "deptTime": "1200",
+                      "deptAirport": "DEL",
+                      "arrDate": "2019/02/11",
+                      "arrTime": "1255",
+                      "arrAirport": "JAI",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "0hr 55min",
+                      "stops": "0",
+                      "aircraft": "Airbus Industrie A321 Jet",
+                      "aircraftType": "AI",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "L1XLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "321",
+                      "sequenceNo": "0",
+                      "paidSeating": "COMPLIMENTARY",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    }
+                  ]
+                },
+                {
+                  "to": "DXB",
+                  "from": "JAI",
+                  "type": "Inbound",
+                  "optionId": "1",
+                  "id": "1",
+                  "seqNo": "1",
+                  "elapsedTime": "11:55",
+                  "flightDetails": [
+                    {
+                      "id": "2",
+                      "flightId": "1",
+                      "optionId": "1",
+                      "flightCode": "AI0492",
+                      "airLegId": "2017",
+                      "deptDate": "2019/03/30",
+                      "deptTime": "1330",
+                      "deptAirport": "JAI",
+                      "arrDate": "2019/03/30",
+                      "arrTime": "1430",
+                      "arrAirport": "DEL",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "1hr 00min",
+                      "stops": "0",
+                      "aircraft": "Airbus Industrie A321 Jet",
+                      "aircraftType": "AI",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1WLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "321",
+                      "sequenceNo": "0",
+                      "paidSeating": "COMPLIMENTARY",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    },
+                    {
+                      "id": "3",
+                      "flightId": "1",
+                      "optionId": "1",
+                      "flightCode": "EK515",
+                      "airLegId": "2019",
+                      "deptDate": "2019/03/30",
+                      "deptTime": "2125",
+                      "deptAirport": "DEL",
+                      "arrDate": "2019/03/30",
+                      "arrTime": "2355",
+                      "arrAirport": "DXB",
+                      "cclass": "Economy",
+                      "bookClass": "T",
+                      "duration": "4hr 00min",
+                      "stops": "0",
+                      "aircraft": "Boeing 777-300ER",
+                      "aircraftType": "EK",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1WLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "77W",
+                      "brandCode": "SAVER",
+                      "sequenceNo": "0",
+                      "paidSeating": "PAID",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    }
+                  ]
+                }
+              ],
+              "FBCodes": [
+                {
+                  "segment": "DXBDELJAI",
+                  "fbCode": "L1XLPAE1",
+                  "mktOnd": "DXBJAI",
+                  "mktAirline": "EK"
+                },
+                {
+                  "segment": "JAIDELDXB",
+                  "fbCode": "T1WLPAE1",
+                  "mktOnd": "DXBJAI",
+                  "mktAirline": "EK"
+                }
+              ],
+              "totElapsedTime": "25:20",
+              "taxDetail": [
+                {
+                  "paxType": "ADT",
+                  "taxCode": "AE",
+                  "perPaxAmt": "75"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "F6",
+                  "perPaxAmt": "35"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "TP",
+                  "perPaxAmt": "5"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "ZR",
+                  "perPaxAmt": "10"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "IN",
+                  "perPaxAmt": "40"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "WO",
+                  "perPaxAmt": "20"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "YQ",
+                  "perPaxAmt": "500"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "YR",
+                  "perPaxAmt": "40"
+                }
+              ],
+              "flightSortNo": "0",
+              "isInvalidCarries": "false",
+              "totalMilesFare": "0",
+              "carrierImposedChargeRev": "0",
+              "sortedFilterIndex": [
+                {
+                  "sortType": "arrivalSort",
+                  "sortIndex": "37",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "departureSort",
+                  "sortIndex": "37",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "durationSort",
+                  "sortIndex": "5",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "priceSort",
+                  "sortIndex": "2",
+                  "defaultSort": "true"
+                }
+              ]
+            },
+            {
+              
+              "serialNo": "2",
+              "standardAirFare": "0",
+              "corpCugo": "false",
+              "paxCount": "1",
+              "airPrcId": "2007",
+              "ruleNo": "1",
+              "totalFare": "2715",
+              "taxes": "725",
+              "airFare": "1990",
+              "carrierImposedCharge": "500",
+              "totalSurcharge": "0",
+              "currencyCode": "AED",
+              "id": "2",
+              "baseMiles": "0",
+              "tierMiles": "0",
+              "totMiles": "0",
+              "fareBreakdown": {
+                "code": "ADT",
+                "quantity": "1",
+                "airFare": "1990",
+                "disBaseFare": "0",
+                "taxes": "725",
+                "surCharge": "0",
+                "totalPrice": "2715",
+                "currencyCode": "AED",
+                "id": "2",
+                "milesFare": "0",
+                "ccSurchargeAmt": "0",
+                "amountPGE": "0",
+                "yqFareAmt": "500"
+              },
+              "flights": [
+                {
+                  "to": "JAI",
+                  "from": "DXB",
+                  "type": "OutBound",
+                  "optionId": "2",
+                  "id": "0",
+                  "seqNo": "0",
+                  "elapsedTime": "20:15",
+                  "flightDetails": [
+                    {
+                      "id": "0",
+                      "flightId": "0",
+                      "optionId": "2",
+                      "flightCode": "EK514",
+                      "airLegId": "2022",
+                      "deptDate": "2019/02/10",
+                      "deptTime": "1510",
+                      "deptAirport": "DXB",
+                      "arrDate": "2019/02/10",
+                      "arrTime": "1955",
+                      "arrAirport": "DEL",
+                      "cclass": "Economy",
+                      "bookClass": "T",
+                      "duration": "3hr 15min",
+                      "stops": "0",
+                      "aircraft": "Boeing 777-300ER",
+                      "aircraftType": "EK",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1XLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "77W",
+                      "brandCode": "SAVER",
+                      "sequenceNo": "0",
+                      "paidSeating": "PAID",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    },
+                    {
+                      "id": "1",
+                      "flightId": "0",
+                      "optionId": "2",
+                      "flightCode": "AI0491",
+                      "airLegId": "2024",
+                      "deptDate": "2019/02/11",
+                      "deptTime": "1200",
+                      "deptAirport": "DEL",
+                      "arrDate": "2019/02/11",
+                      "arrTime": "1255",
+                      "arrAirport": "JAI",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "0hr 55min",
+                      "stops": "0",
+                      "aircraft": "Airbus Industrie A321 Jet",
+                      "aircraftType": "AI",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1XLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "321",
+                      "sequenceNo": "0",
+                      "paidSeating": "COMPLIMENTARY",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    }
+                  ]
+                },
+                {
+                  "to": "DXB",
+                  "from": "JAI",
+                  "type": "Inbound",
+                  "optionId": "2",
+                  "id": "1",
+                  "seqNo": "1",
+                  "elapsedTime": "18:35",
+                  "flightDetails": [
+                    {
+                      "id": "2",
+                      "flightId": "1",
+                      "optionId": "2",
+                      "flightCode": "AI0492",
+                      "airLegId": "2026",
+                      "deptDate": "2019/03/30",
+                      "deptTime": "1330",
+                      "deptAirport": "JAI",
+                      "arrDate": "2019/03/30",
+                      "arrTime": "1430",
+                      "arrAirport": "DEL",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "1hr 00min",
+                      "stops": "0",
+                      "aircraft": "Airbus Industrie A321 Jet",
+                      "aircraftType": "AI",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "L1WLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "321",
+                      "sequenceNo": "0",
+                      "paidSeating": "COMPLIMENTARY",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    },
+                    {
+                      "id": "3",
+                      "flightId": "1",
+                      "optionId": "2",
+                      "flightCode": "EK513",
+                      "airLegId": "2028",
+                      "deptDate": "2019/03/31",
+                      "deptTime": "0410",
+                      "deptAirport": "DEL",
+                      "arrDate": "2019/03/31",
+                      "arrTime": "0635",
+                      "arrAirport": "DXB",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "3hr 55min",
+                      "stops": "0",
+                      "aircraft": "Boeing 777-300ER",
+                      "aircraftType": "EK",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "L1WLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "77W",
+                      "brandCode": "SAVER",
+                      "sequenceNo": "0",
+                      "paidSeating": "PAID",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    }
+                  ]
+                }
+              ],
+              "FBCodes": [
+                {
+                  "segment": "DXBDELJAI",
+                  "fbCode": "T1XLPAE1",
+                  "mktOnd": "DXBJAI",
+                  "mktAirline": "EK"
+                },
+                {
+                  "segment": "JAIDELDXB",
+                  "fbCode": "L1WLPAE1",
+                  "mktOnd": "DXBJAI",
+                  "mktAirline": "EK"
+                }
+              ],
+              "totElapsedTime": "38:50",
+              "taxDetail": [
+                {
+                  "paxType": "ADT",
+                  "taxCode": "AE",
+                  "perPaxAmt": "75"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "F6",
+                  "perPaxAmt": "35"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "TP",
+                  "perPaxAmt": "5"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "ZR",
+                  "perPaxAmt": "10"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "IN",
+                  "perPaxAmt": "40"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "WO",
+                  "perPaxAmt": "20"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "YQ",
+                  "perPaxAmt": "500"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "YR",
+                  "perPaxAmt": "40"
+                }
+              ],
+              "flightSortNo": "0",
+              "isInvalidCarries": "false",
+              "totalMilesFare": "0",
+              "carrierImposedChargeRev": "0",
+              "sortedFilterIndex": [
+                {
+                  "sortType": "arrivalSort",
+                  "sortIndex": "23",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "departureSort",
+                  "sortIndex": "23",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "durationSort",
+                  "sortIndex": "29",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "priceSort",
+                  "sortIndex": "3",
+                  "defaultSort": "true"
+                }
+              ]
+            },
+            {
+              
+              "serialNo": "3",
+              "standardAirFare": "0",
+              "corpCugo": "false",
+              "paxCount": "1",
+              "airPrcId": "2010",
+              "ruleNo": "1",
+              "totalFare": "2715",
+              "taxes": "725",
+              "airFare": "1990",
+              "carrierImposedCharge": "500",
+              "totalSurcharge": "0",
+              "currencyCode": "AED",
+              "id": "3",
+              "baseMiles": "0",
+              "tierMiles": "0",
+              "totMiles": "0",
+              "fareBreakdown": {
+                "code": "ADT",
+                "quantity": "1",
+                "airFare": "1990",
+                "disBaseFare": "0",
+                "taxes": "725",
+                "surCharge": "0",
+                "totalPrice": "2715",
+                "currencyCode": "AED",
+                "id": "3",
+                "milesFare": "0",
+                "ccSurchargeAmt": "0",
+                "amountPGE": "0",
+                "yqFareAmt": "500"
+              },
+              "flights": [
+                {
+                  "to": "JAI",
+                  "from": "DXB",
+                  "type": "OutBound",
+                  "optionId": "3",
+                  "id": "0",
+                  "seqNo": "0",
+                  "elapsedTime": "20:15",
+                  "flightDetails": [
+                    {
+                      "id": "0",
+                      "flightId": "0",
+                      "optionId": "3",
+                      "flightCode": "EK514",
+                      "airLegId": "2031",
+                      "deptDate": "2019/02/10",
+                      "deptTime": "1510",
+                      "deptAirport": "DXB",
+                      "arrDate": "2019/02/10",
+                      "arrTime": "1955",
+                      "arrAirport": "DEL",
+                      "cclass": "Economy",
+                      "bookClass": "T",
+                      "duration": "3hr 15min",
+                      "stops": "0",
+                      "aircraft": "Boeing 777-300ER",
+                      "aircraftType": "EK",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1XLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "77W",
+                      "brandCode": "SAVER",
+                      "sequenceNo": "0",
+                      "paidSeating": "PAID",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    },
+                    {
+                      "id": "1",
+                      "flightId": "0",
+                      "optionId": "3",
+                      "flightCode": "AI0491",
+                      "airLegId": "2033",
+                      "deptDate": "2019/02/11",
+                      "deptTime": "1200",
+                      "deptAirport": "DEL",
+                      "arrDate": "2019/02/11",
+                      "arrTime": "1255",
+                      "arrAirport": "JAI",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "0hr 55min",
+                      "stops": "0",
+                      "aircraft": "Airbus Industrie A321 Jet",
+                      "aircraftType": "AI",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "T1XLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "321",
+                      "sequenceNo": "0",
+                      "paidSeating": "COMPLIMENTARY",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    }
+                  ]
+                },
+                {
+                  "to": "DXB",
+                  "from": "JAI",
+                  "type": "Inbound",
+                  "optionId": "3",
+                  "id": "1",
+                  "seqNo": "1",
+                  "elapsedTime": "25:0",
+                  "flightDetails": [
+                    {
+                      "id": "2",
+                      "flightId": "1",
+                      "optionId": "3",
+                      "flightCode": "AI0492",
+                      "airLegId": "2035",
+                      "deptDate": "2019/03/30",
+                      "deptTime": "1330",
+                      "deptAirport": "JAI",
+                      "arrDate": "2019/03/30",
+                      "arrTime": "1430",
+                      "arrAirport": "DEL",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "1hr 00min",
+                      "stops": "0",
+                      "aircraft": "Airbus Industrie A321 Jet",
+                      "aircraftType": "AI",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "L1WLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "321",
+                      "sequenceNo": "0",
+                      "paidSeating": "COMPLIMENTARY",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    },
+                    {
+                      "id": "3",
+                      "flightId": "1",
+                      "optionId": "3",
+                      "flightCode": "EK511",
+                      "airLegId": "2037",
+                      "deptDate": "2019/03/31",
+                      "deptTime": "1100",
+                      "deptAirport": "DEL",
+                      "arrDate": "2019/03/31",
+                      "arrTime": "1300",
+                      "arrAirport": "DXB",
+                      "cclass": "Economy",
+                      "bookClass": "L",
+                      "duration": "3hr 30min",
+                      "stops": "0",
+                      "aircraft": "Boeing 777-300ER",
+                      "aircraftType": "EK",
+                      "economy": " ",
+                      "business": " ",
+                      "firstClass": " ",
+                      "economyBonusMiles": "0",
+                      "businessBonusMiles": "0",
+                      "firstBonusMiles": "0",
+                      "fbCode": "L1WLPAE1",
+                      "flightSeqNumber": "0",
+                      "flexFare": "false",
+                      "aircraftCode": "77W",
+                      "brandCode": "SAVER",
+                      "sequenceNo": "0",
+                      "paidSeating": "PAID",
+                      "reasonCode": "NO_CODESHARE",
+                      "upgAvail": "false"
+                    }
+                  ]
+                }
+              ],
+              "FBCodes": [
+                {
+                  "segment": "DXBDELJAI",
+                  "fbCode": "T1XLPAE1",
+                  "mktOnd": "DXBJAI",
+                  "mktAirline": "EK"
+                },
+                {
+                  "segment": "JAIDELDXB",
+                  "fbCode": "L1WLPAE1",
+                  "mktOnd": "DXBJAI",
+                  "mktAirline": "EK"
+                }
+              ],
+              "totElapsedTime": "45:15",
+              "taxDetail": [
+                {
+                  "paxType": "ADT",
+                  "taxCode": "AE",
+                  "perPaxAmt": "75"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "F6",
+                  "perPaxAmt": "35"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "TP",
+                  "perPaxAmt": "5"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "ZR",
+                  "perPaxAmt": "10"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "IN",
+                  "perPaxAmt": "40"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "WO",
+                  "perPaxAmt": "20"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "YQ",
+                  "perPaxAmt": "500"
+                },
+                {
+                  "paxType": "ADT",
+                  "taxCode": "YR",
+                  "perPaxAmt": "40"
+                }
+              ],
+              "flightSortNo": "0",
+              "isInvalidCarries": "false",
+              "totalMilesFare": "0",
+              "carrierImposedChargeRev": "0",
+              "sortedFilterIndex": [
+                {
+                  "sortType": "arrivalSort",
+                  "sortIndex": "24",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "departureSort",
+                  "sortIndex": "24",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "durationSort",
+                  "sortIndex": "36",
+                  "defaultSort": "false"
+                },
+                {
+                  "sortType": "priceSort",
+                  "sortIndex": "4",
+                  "defaultSort": "true"
+                }
+              ]
+            },
+            {
+             
+              "serialNo": "4",
+              "standardAirFare": "0",
+              "corpCugo": "false",
+              "paxCount": "1",
+              "airPrcId": "2013",
+              "ruleNo": "1",
+              "totalFare": "2805",
+              "taxes": "725",
+              "airFare": "2080",
+              "carrierImposedCharge": "500",
+              "totalSurcharge": "0",
+              "currencyCode": "AED",
+              "id": "4",
+              "baseMiles": "0",
+              "tierMiles": "0",
+              "totMiles": "0",
+              "fareBreakdown": {
+                "code": "ADT",
+                "quantity": "1",
+                "airFare": "2080",
+                "disBaseFare": "0",
+                "taxes": "725",
+                "surCharge": "0",
+                "totalPrice": "2805",
+                "currencyCode": "AED",
+                "id": "4",
+                "milesFare": "0",
+                "ccSurchargeAmt": "0",
+                "amountPGE": "0",
+                "yqFareAmt": "500"
+              },
+              "flights": {
+                "to": "JAI",
+                "from": "DXB",
+                "type": "OutBound",
+                "optionId": "4",
+                "id": "0",
+                "seqNo": "0",
+                "elapsedTime": "13:25",
+                "flightDetails": [
+                  {
+                    "id": "0",
+                    "flightId": "0",
+                    "optionId": "4",
+                    "flightCode": "EK512",
+                    "airLegId": "2040",
+                    "deptDate": "2019/02/10",
+                    "deptTime": "2200",
+                    "deptAirport": "DXB",
+                    "arrDate": "2019/02/11",
+                    "arrTime": "0240",
+                    "arrAirport": "DEL",
+                    "cclass": "Economy",
+                    "bookClass": "L",
+                    "duration": "3hr 10min",
+                    "stops": "0",
+                    "aircraft": "Boeing 777-300ER",
+                    "aircraftType": "EK",
+                    "economy": " ",
+                    "business": " ",
+                    "firstClass": " ",
+                    "economyBonusMiles": "0",
+                    "businessBonusMiles": "0",
+                    "firstBonusMiles": "0",
+                    "fbCode": "L1XLPAE1",
+                    "flightSeqNumber": "0",
+                    "flexFare": "false",
+                    "aircraftCode": "77W",
+                    "brandCode": "SAVER",
+                    "sequenceNo": "0",
+                    "paidSeating": "PAID",
+                    "reasonCode": "NO_CODESHARE",
+                    "upgAvail": "false"
+                  },
+                  {
+                    "id": "1",
+                    "flightId": "0",
+                    "optionId": "4",
+                    "flightCode": "AI0491",
+                    "airLegId": "2042",
+                    "deptDate": "2019/02/11",
+                    "deptTime": "1200"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
